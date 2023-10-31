@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    z-index: -2;
+    position: relative;
+}
+
+.container-fluid {
+    background-color: aqua;
+    text-align: center;
+    padding: 1px;
+}
+
+
+nav ul {
+    list-style: none;
+    margin-top: 2%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+nav ul li a {
+    margin-right: 20px;
+    text-decoration: none;
+    color:#333;
+}
+
+.menu {
+    background-color: #333;
+    color: #fff;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+}
+
+.menu-left {
+    left: 0;
+    z-index: -1;
+}
+
+.menu-right {
+    right: 0;
+    z-index: -1;
+}
+
+.menu h2 {
+    text-align: center;
+    height: 5%;
+}
+
+.menu ul {
+    list-style: none;
+    display: grid;
+    
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    margin: 0 270px;
+    padding: 20px;
+    align-items: center;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    max-width: 800px; 
+}
+
+
+.custom-card-image {
+  height: 188px;
+  width: 264px;
+}
+
+.principal{
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+.rodape_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color:#fff;
+    padding: 0;
+    z-index: 1;
+}
+
+.texto{
+    margin-left: 5%;
+    margin-right: 5%;
+}

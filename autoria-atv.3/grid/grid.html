@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_grid.css">
+    <title>Display GRID</title>
+</head>
+
+<body>
+    <h1>USO DE DISPLAY: GRID</h1>
+   <div class="card-group">
+    <div class="card">
+        <h1>grid-template: 50px 1fr / 100px 1fr 100px</h1>
+        <section class="grid grid-template-1">
+            <div class="item">logo</div>
+            <div class="item">nav</div>
+            <div class="item">content</div>
+            <div class="item">sidenav</div>
+            <div class="item">advert</div>
+            <div class="item">footer</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>grid-template (areas, columns e rows)</h1>
+        <section class="grid grid-template-2">
+            <div class="item logo">logo</div>
+            <div class="item nav">nav</div>
+            <div class="item content">content</div>
+            <div class="item sidenav">sidenav</div>
+            <div class="item advert">advert</div>
+            <div class="item footer">footer</div>
+        </section>
+    </div>
+    <div class="card">
+        <h1>gap: 20px;</h1>
+        <section class="grid grid-template gap">
+            <div class="item logo">logo</div>
+            <div class="item nav">nav</div>
+            <div class="item content">content</div>
+            <div class="item sidenav">sidenav</div>
+            <div class="item advert">advert</div>
+            <div class="item footer">footer</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>column-gap: 20px;</h1>
+        <section class="grid grid-template column-gap">
+            <div class="item logo">logo</div>
+            <div class="item nav">nav</div>
+            <div class="item content">content</div>
+            <div class="item sidenav">sidenav</div>
+            <div class="item advert">advert</div>
+            <div class="item footer">footer</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>row-gap: 20px;</h1>
+        <section class="grid grid-template row-gap">
+            <div class="item logo">logo</div>
+            <div class="item nav">nav</div>
+            <div class="item content">content</div>
+            <div class="item sidenav">sidenav</div>
+            <div class="item advert">advert</div>
+            <div class="item footer">footer</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>margem nos itens</h1>
+        <section class="grid grid-template gap">
+            <div class="item logo">logo</div>
+            <div class="item nav">nav</div>
+            <div class="item content">content</div>
+            <div class="item sidenav">sidenav</div>
+            <div class="item advert margin">advert</div>
+            <div class="item footer">footer</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>grid-auto-columns: 100px;</h1>
+        <section class="grid grid-auto-columns-1">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item item-6">6</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>grid-auto-columns: 50px 100px;</h1>
+        <section class="grid grid-auto-columns-2">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item item-6">6</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>grid-auto-columns não definido</h1>
+        <section class="grid grid-auto-columns-3">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item item-6">6</div>
+        </section>
+    </div>
+
+    
+        <h1>Grid-auto-rows Define o tamanho das linhas do grid implícito (gerado automaticamente,
+            quando algum elemento é posicionado em uma linha que não foi definida).</h1>
+        <div class="card">
+        <h1>grid-auto-rows: 100px;</h1>
+        <section class="grid grid-auto-rows-1">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+        </section>
+    </div>
+
+
+    <div class="card">
+        <h1>grid-auto-rows: 50px 100px;</h1>
+        <section class="grid grid-auto-rows-2">
+            <div class="item logo">logo</div>
+            <div class="item nav">nav</div>
+            <div class="item content">content</div>
+            <div class="item sidenav">sidenav</div>
+            <div class="item advert">advert</div>
+            <div class="item footer">footer</div>
+            <div class="item">p</div>
+            <div class="item">p</div>
+            <div class="item">p</div>
+            <div class="item">p</div>
+            <div class="item">p</div>
+            <div class="item">p</div>
+            <div class="item">p</div>
+            <div class="item">p</div>
+        </section>
+    </div>
+
+    
+        <center><h1> Gap: Define o gap (gutter) entre os elementos do grid.</h1></center>
+        <div class="card">
+        <h1>gap: 20px;</h1>
+        <section class="grid grid-template gap">
+            <div class="item logo">logo</div>
+            <div class="item nav">nav</div>
+            <div class="item content">content</div>
+            <div class="item sidenav">sidenav</div>
+            <div class="item advert">advert</div>
+            <div class="item footer">footer</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>column-gap: 20px;</h1>
+        <section class="grid grid-template column-gap">
+            <div class="item logo">logo</div>
+            <div class="item nav">nav</div>
+            <div class="item content">content</div>
+            <div class="item sidenav">sidenav</div>
+            <div class="item advert">advert</div>
+            <div class="item footer">footer</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>row-gap: 20px;</h1>
+        <section class="grid grid-template row-gap">
+            <div class="item logo">logo</div>
+            <div class="item nav">nav</div>
+            <div class="item content">content</div>
+            <div class="item sidenav">sidenav</div>
+            <div class="item advert">advert</div>
+            <div class="item footer">footer</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>Margem nos itens</h1>
+        <section class="grid grid-template gap">
+            <div class="item logo">logo</div>
+            <div class="item nav">nav</div>
+            <div class="item content">content</div>
+            <div class="item sidenav">sidenav</div>
+            <div class="item advert margin">advert</div>
+            <div class="item footer">footer</div>
+        </section>
+    </div>
+
+        <h1>Grid-auto-columns:
+            Define o tamanho das colunas do grid implícito (gerado automaticamente, quando algum elemento é posicionado
+            em uma coluna que não foi definida).</h1>
+        <div class="card">
+        <h1>grid-auto-columns: 100px;</h1>
+        <section class="grid grid-auto-columns-1">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item item-6">6</div>
+        </section>
+    </div>
+    <div class="card">
+        <h1>grid-auto-columns: 50px 100px;</h1>
+        <section class="grid grid-auto-columns-2">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item item-6">6</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>grid-auto-columns não definido</h1>
+        <section class="grid grid-auto-columns-3">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item item-6">6</div>
+        </section>
+    </div>
+
+    <h1>Grid-auto-rows:
+        Define o tamanho das linhas do grid implícito (gerado automaticamente, quando algum elemento é posicionado em
+        uma linha que não foi definida).</h1>
+    <div class="card">
+        <h1>grid-auto-rows: 100px;</h1>
+        <section class="grid grid-auto-rows-1">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+        </section>
+    </div>
+
+
+    <div class="card">
+        <h1>grid-auto-rows: 50px 100px;</h1>
+        <section class="grid grid-auto-rows-2">
+            <div class="item logo">logo</div>
+            <div class="item nav">nav</div>
+            <div class="item content">content</div>
+            <div class="item sidenav">sidenav</div>
+            <div class="item advert">advert</div>
+            <div class="item footer">footer</div>
+            <div class="item">p</div>
+            <div class="item">p</div>
+            <div class="item">p</div>
+            <div class="item">p</div>
+            <div class="item">p</div>
+            <div class="item">p</div>
+            <div class="item">p</div>
+            <div class="item">p</div>
+        </section>
+    </div>
+
+    <h1>Grid-auto-flow:
+        Define o fluxo dos itens no grid. Se eles vão automaticamente gerar novas linhas ou colunas.</h1>
+    <div class="card">
+        <h1>grid-auto-flow: column;</h1>
+        <section class="grid grid-auto-flow-1">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>grid-auto-flow: column;</h1>
+        <section class="grid grid-auto-flow-2">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+        </section>
+    </div>
+
+
+    <div class="card">
+        <h1>grid-auto-flow: dense;</h1>
+        <section class="grid grid-auto-rows-2">
+            <div class="item">1</div>
+            <div class="item item-2">2</div>
+            <div class="item">3</div>
+            <div class="item item-4">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+            <div class="item">7</div>
+            <div class="item">8</div>
+            <div class="item">9</div>
+        </section>
+    </div>
+
+    <h1> Grid:
+        Atalho geral para definir o grid: grid-template-rows, grid-template-columns, grid-template-areas,
+        grid-auto-rows, grid-auto-columns e grid-auto-flow</h1>
+
+    <div class="card">
+        <h1>grid: 100px / 1fr 1fr;</h1>
+        <section class="grid grid-1">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>grid: 100px / auto-flow 100px 50px;</h1>
+        <section class="grid grid-2">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>grid diversos valores</h1>
+        <section class="grid grid-3">
+            <div class="item logo">logo</div>
+            <div class="item nav">nav</div>
+            <div class="item content">content</div>
+            <div class="item sidenav">sidenav</div>
+            <div class="item advert">advert</div>
+            <div class="item footer">footer</div>
+        </section>
+    </div>
+
+    <h1>GRID ITEM: 
+        Os Grid Itens são os filhos diretos do Grid Container. Um grid item pode ser explicito ou implícito. Explicito é
+        quanto você define ele explicitamente no container e implícito é quanto ele é criado automaticamente para
+        preencher o conteúdo no grid.
+        <center>-----------------------------------------</center>
+    </h1><br><br>
+
+    <h1>Grid-column:
+        Define quais colunas serão ocupadas pelo grid item. </h1>
+
+    <div class="card">
+        <h1>grid-column</h1>
+        <section class="grid grid-column-1">
+            <div class="item item-1">1</div>
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+            <div class="item item-4">4</div>
+            <div class="item item-5">5</div>
+            <div class="item item-6">6</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>grid-column span</h1>
+        <section class="grid grid-column-2">
+            <div class="item item-1">1</div>
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+            <div class="item item-4">4</div>
+            <div class="item item-5">5</div>
+            <div class="item item-6">6</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>grid-column-start / grid-column-end</h1>
+        <section class="grid grid-column-3">
+            <div class="item item-1">1</div>
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+            <div class="item item-4">4</div>
+            <div class="item item-5">5</div>
+            <div class="item item-6">6</div>
+        </section>
+    </div>
+    
+    <div class="card">
+        <h1>Exemplo:</h1>
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/64626/grid-column.png" alt="Grid Columns" />
+    </div>
+
+    <div class="card">
+        <h1>[col1-inicio]</h1>
+        <section class="grid grid-column-4">
+            <div class="item item-1">1</div>
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+            <div class="item item-4">4</div>
+            <div class="item item-5">5</div>
+            <div class="item item-6">6</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>grid-template-areas</h1>
+        <section class="grid grid-column-5">
+            <div class="item item-1">1</div>
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+            <div class="item item-4">4</div>
+            <div class="item item-5">5</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>grid-column normal</h1>
+        <section class="grid grid-column-6">
+            <div class="item item-1">1</div>
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+            <div class="item item-4">4</div>
+            <div class="item item-5">5</div>
+        </section>
+    </div>
+
+    <h1>Grid-row:
+        Define quais linhas serão ocupadas pelo grid item.</h1>
+        <div class="card">
+        <h1>grid-row</h1>
+        <section class="grid grid-row-1">
+            <div class="item item-1">1</div>
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+            <div class="item item-4">4</div>
+            <div class="item item-5">5</div>
+            <div class="item item-6">6</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>grid-row span</h1>
+        <section class="grid grid-row-2">
+            <div class="item item-1">1</div>
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+            <div class="item item-4">4</div>
+            <div class="item item-5">5</div>
+            <div class="item item-6">6</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>grid-row-start / grid-row-end</h1>
+        <section class="grid grid-row-3">
+            <div class="item item-1">1</div>
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+            <div class="item item-4">4</div>
+            <div class="item item-5">5</div>
+            <div class="item item-6">6</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>[row1]</h1>
+        <section class="grid grid-row-4">
+            <div class="item item-1">1</div>
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+            <div class="item item-4">4</div>
+            <div class="item item-5">5</div>
+            <div class="item item-6">6</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>grid-template-areas</h1>
+        <section class="grid grid-row-5">
+            <div class="item item-1">1</div>
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+            <div class="item item-4">4</div>
+            <div class="item item-5">5</div>
+        </section>
+    </div>
+
+    <h1>Grid-area:
+        Define a área do item do grid. É um atalho para grid-row-start, grid-column-start, grid-row-end,
+        grid-column-end.</h1>
+        <div class="card">
+        <h1>grid-area: 1 / 2 / 4 / 3;</h1>
+        <section class="grid grid-area-1">
+            <div class="item item-1">1</div>
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+            <div class="item item-4">4</div>
+            <div class="item item-5">5</div>
+            <div class="item item-6">6</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>grid-area: header;</h1>
+        <section class="grid grid-area-2">
+            <div class="item item-1">1</div>
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+            <div class="item item-4">4</div>
+            <div class="item item-5">5</div>
+            <div class="item item-6">6</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>grid-area</h1>
+        <section class="grid grid-area-3">
+            <div class="item item-1">1</div>
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+            <div class="item item-4">4</div>
+            <div class="item item-5">5</div>
+            <div class="item item-6">6</div>
+            <div class="item item-7">7</div>
+            <div class="item item-8">8</div>
+            <div class="item item-9">9</div>
+            <div class="item item-10">10</div>
+            <div class="item item-11">11</div>
+            <div class="item item-12">12</div>
+            <div class="item item-13">13</div>
+            <div class="item item-14">14</div>
+            <div class="item item-15">15</div>
+            <div class="item item-16">16</div>
+            <div class="item item-17">17</div>
+            <div class="item item-18">18</div>
+            <div class="item item-19">19</div>
+            <div class="item item-20">20</div>
+        </section>
+    </div>
+
+    <h1> Justify-self:
+        Justifica o item do grid em relação ao eixo x (horizontal). Justifica em relação a célula.</h1>
+    <div class="card">
+        <h1>justify-self: start;</h1>
+        <section class="grid start">
+            <div class="item item-1">1</div>
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+            <div class="item item-4">4</div>
+            <div class="item item-5">5</div>
+            <div class="item item-6">6</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>justify-self: end;</h1>
+        <section class="grid end">
+            <div class="item item-1">1</div>
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+            <div class="item item-4">4</div>
+            <div class="item item-5">Item 5</div>
+            <div class="item item-6">6</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>justify-self: center;</h1>
+        <section class="grid center">
+            <div class="item item-1">1</div>
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+            <div class="item item-4">4</div>
+            <div class="item item-5">Item 5</div>
+            <div class="item item-6">6</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>justify-self: stretch;</h1>
+        <section class="grid stretch">
+            <div class="item item-1">1</div>
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+            <div class="item item-4">4</div>
+            <div class="item item-5">Item 5</div>
+            <div class="item item-6">6</div>
+        </section>
+    </div>
+
+    <h1>Align-self:
+        Justifica o item do grid em relação ao eixo y (vertical). Alinha em relação a célula.</h1>
+
+        <div class="card">
+        <h1>align-self: start;</h1>
+        <section class="grid start">
+            <div class="item item-1">1</div>
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+            <div class="item item-4">4</div>
+            <div class="item item-5">5</div>
+            <div class="item item-6">6</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>align-self: end;</h1>
+        <section class="grid end">
+            <div class="item item-1">1</div>
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+            <div class="item item-4">4</div>
+            <div class="item item-5">Item 5</div>
+            <div class="item item-6">6</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>align-self: center;</h1>
+        <section class="grid center">
+            <div class="item item-1">1</div>
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+            <div class="item item-4">4</div>
+            <div class="item item-5">Item 5</div>
+            <div class="item item-6">6</div>
+        </section>
+    </div>
+
+    <div class="card">
+        <h1>align-self: stretch;</h1>
+        <section class="grid stretch">
+            <div class="item item-1">1</div>
+            <div class="item item-2">2</div>
+            <div class="item item-3">3</div>
+            <div class="item item-4">4</div>
+            <div class="item item-5">Item 5</div>
+            <div class="item item-6">6</div>
+        </section>
+    </div>
+   </div>
+</body>
+
+</html>
